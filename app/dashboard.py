@@ -252,6 +252,6 @@ st.download_button(
 # -----------------------
 # Dataset Preview
 # -----------------------
-
+filtered_df = df.copy()
 st.subheader("Dataset Preview")
 st.dataframe(filtered_df.head())
