@@ -20,7 +20,10 @@ st.write("Prepared by: Jazeel Ahmed | Version 4")
 # -----------------------
 # Load Dataset
 # -----------------------
-df = pd.read_csv("../Data/cleaned_novamart_data.csv")
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+df = pd.read_csv(os.path.join(BASE_DIR, "..", "Data", "cleaned_novamart_data.csv"))
 
 # -----------------------
 # Sidebar Filters
