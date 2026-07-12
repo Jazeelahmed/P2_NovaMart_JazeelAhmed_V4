@@ -20,7 +20,7 @@ st.write("Prepared by: Jazeel Ahmed | Version 4")
 # -----------------------
 # Load Dataset
 # -----------------------
-df = pd.read_csv("../data/cleaned_novamart_data.csv")
+df = pd.read_csv("../Data/cleaned_novamart_data.csv")
 
 # -----------------------
 # Sidebar Filters
